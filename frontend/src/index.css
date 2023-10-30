@@ -1,0 +1,8 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply text-neutral-100;
+  } 
+}
+@tailwind components;
+@tailwind utilities;

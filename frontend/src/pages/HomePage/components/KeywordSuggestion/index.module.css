@@ -1,0 +1,33 @@
+.rightButton {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+  padding: 20px 0;
+  width: 100px;
+  display: flex;
+  justify-content: end;
+  background: linear-gradient(270deg, #FFFFFF 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.rightButton img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.leftButton {
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  padding: 20px 0;
+  width: 100px;
+  display: flex;
+  justify-content: start;
+  background: linear-gradient(1200deg, #FFFFFF 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.leftButton img {
+  width: 24px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}

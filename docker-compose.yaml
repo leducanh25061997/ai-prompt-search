@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  galerie_fe:
+    image: $IMAGE_NAME
+    container_name: $CONTAINER_NAME
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '7860:3000'
